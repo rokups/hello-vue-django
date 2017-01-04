@@ -1,0 +1,9 @@
+.DS_Store
+node_modules
+static/dist
+npm-debug.log
+.idea
+.venv
+db.sqlite3
+webpack-stats.json
+__pycache__
