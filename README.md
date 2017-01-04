@@ -34,3 +34,5 @@ make build
 
 For the sake of simplicity Django config is contained within it's own backend app. In real world setting you would
 probably want to remove `backend` from `INSTALLED_APPS`, create a new app and move `backend.views` to it.
+
+You probably want to create python virtual environment as well. Default python instance available will be used.
