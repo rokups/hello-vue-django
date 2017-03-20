@@ -94,5 +94,5 @@ else if (use_hot_reload)
     module.exports.entry.push('webpack/hot/only-dev-server');
     module.exports.output['publicPath'] = 'http://' + dev_server_addr + ':' + dev_server_port + dist_dir + '/';
     module.exports.plugins.push(new webpack.HotModuleReplacementPlugin());
-    module.exports.plugins.push(new webpack.NoErrorsPlugin()); // don't reload if there is an error
+    module.exports.plugins.push(new webpack.NoEmitOnErrorsPlugin()); // don't reload if there is an error
 }
