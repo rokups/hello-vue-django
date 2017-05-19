@@ -11,6 +11,7 @@ new WebpackDevServer(webpack(config), {
     publicPath: config.output.publicPath,
     hot: true,
     inline: true,
+    headers: { "Access-Control-Allow-Origin": "*" },
     historyApiFallback: true
 }).listen(listen_port, listen_addr, function (err, result)
 {
