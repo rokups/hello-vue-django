@@ -1,2 +1,5 @@
 Django
 django-webpack-loader
+
+# Configuration
+django-environ
