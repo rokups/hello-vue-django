@@ -1,5 +1,5 @@
 # Use development settings for running django dev server.
-export DJANGO_SETTINGS_MODULE=backend.settingsdev
+export DJANGO_SETTINGS_MODULE=backend.settings.dev
 
 # Initializes virtual environment with basic requirements.
 prod:
